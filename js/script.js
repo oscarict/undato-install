@@ -86,3 +86,5 @@ window.addEventListener('scroll', function (e) {
     e.preventDefault();
     onScroll();
 });
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
